@@ -1,0 +1,3 @@
+| sed 's/^..//g' | sed 's/,.....$//g' |
+grep -m 1 -B 10 AUS m00* | grep -v -i an | grep -v -i aus | sed 's/^.......//g' | sed 's/,.....$//g' >> mall
+
